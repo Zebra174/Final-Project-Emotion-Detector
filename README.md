@@ -12,7 +12,7 @@ Emotion detection extends the concept of sentiment analysis by extracting the fi
 For the completion of this project, you'll have to complete the following 8 task
 
 # Tasks:
-** Task 1: Clone the project repository
+** Task 1: Clone the project repository \n
 ** Task 2: Create an emotion detection application using Watson NLP library
 ** Task 3: Format the output of the application
 ** Task 4: Package the application
