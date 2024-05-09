@@ -15,9 +15,12 @@ def sent_analyzer():
     joy = response['joy']
     sadness = response['sadness']
     dominant_emotion = response['dominant_emotion']
-    ans = str({"anger":anger, "disgust":disgust, "fear":fear, "joy":joy, 
-    "sadness":sadness, "dominant_emotion":dominant_emotion})
-    return "For the given statement, the system response is  " + ans
+    if dominant_emotion is None:
+        return "Invalid text! Please try again!"
+    else:
+        ans = str({"anger":anger, "disgust":disgust, "fear":fear, "joy":joy, 
+        "sadness":sadness, "dominant_emotion":dominant_emotion})
+        return "For the given statement, the system response is  " + ans
 
 # Rendering Home Page
 @app.route("/")
