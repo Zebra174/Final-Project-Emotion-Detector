@@ -1,5 +1,5 @@
-# Repository for final project
-Final Flask Project : Emotion Detector
+# Final Flask Project : Emotion Detector
+
 
 # Introduction:
 In this final project, you will be assessed on the knowledge gained on all aspects of app creation and its web deployment throughout this course. You will be required to save screenshots of your results from time to time, with specific nomenclature. These screenshots will have to be uploaded in the peer graded assignment that follows.
